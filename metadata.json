@@ -1,0 +1,8 @@
+{
+  "name": "MyMenuQR - SaaS Menu Digital & Commandes QR",
+  "description": "Plateforme SaaS tout-en-un pour cafés et restaurants tunisiens : gestion du menu digital, tables, commandes QR en direct et abonnements D17.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

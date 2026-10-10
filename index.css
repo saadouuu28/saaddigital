@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hide scrollbar for clean horizontal pill navigation */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  header, nav, button {
+    display: none !important;
+  }
+
+  #thermal-receipt {
+    display: block !important;
+    width: 78mm !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+}
